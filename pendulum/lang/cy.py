@@ -3,52 +3,52 @@
 translations = {
     # Days
     'days': {
-        0: 'Sunday',
-        1: 'Monday',
-        2: 'Tuesday',
-        3: 'Wednesday',
-        4: 'Thursday',
-        5: 'Friday',
-        6: 'Saturday'
+        0: 'Dydd Sul',
+        1: 'Dydd Llun',
+        2: 'Dydd Mawrth',
+        3: 'Dydd Mercher',
+        4: 'Dydd Iau',
+        5: 'Dydd Gwener',
+        6: 'Dydd Sadwrn'
     },
     'days_abbrev': {
-        0: 'Sun',
-        1: 'Mon',
-        2: 'Tue',
-        3: 'Wed',
-        4: 'Thu',
-        5: 'Fri',
-        6: 'Sat'
+        0: 'Sul',
+        1: 'Llun',
+        2: 'Maw',
+        3: 'Mer',
+        4: 'Iau',
+        5: 'Gwe',
+        6: 'Sad'
     },
 
     # Months
     'months': {
-        1: 'January',
-        2: 'February',
-        3: 'March',
-        4: 'April',
-        5: 'May',
-        6: 'June',
-        7: 'July',
-        8: 'August',
-        9: 'September',
-        10: 'October',
-        11: 'November',
-        12: 'December',
+        1: 'Ionawr',
+        2: 'Chwefror',
+        3: 'Mawrth',
+        4: 'Ebrill',
+        5: 'Mai',
+        6: 'Mehefin',
+        7: 'Gorffenaf',
+        8: 'Awst',
+        9: 'Medi',
+        10: 'Hydref',
+        11: 'Tachwedd',
+        12: 'Rhagfyr',
     },
     'months_abbrev': {
-        1: 'Jan',
-        2: 'Feb',
-        3: 'Mar',
-        4: 'Apr',
-        5: 'May',
-        6: 'Jun',
-        7: 'Jul',
-        8: 'Aug',
-        9: 'Sep',
-        10: 'Oct',
-        11: 'Nov',
-        12: 'Dec',
+        1: 'Ion',
+        2: 'Chwe',
+        3: 'Maw',
+        4: 'Ebr',
+        5: 'Mai',
+        6: 'Meh',
+        7: 'Gor',
+        8: 'Aws',
+        9: 'Med',
+        10: 'Hyd',
+        11: 'Tach',
+        12: 'Rhag',
     },
 
     # Units of time
@@ -61,7 +61,7 @@ translations = {
     'second': ['{count} second', '{count} seconds'],
 
     # Relative time
-    'ago': '{time} ago',
+    'ago': '{time} yn ôl',
     'from_now': '{time} from now',
     'after': '{time} after',
     'before': '{time} before',
@@ -71,7 +71,7 @@ translations = {
 
     # Meridians
     # [time] is a (hour, minute) tuple
-    'meridian': lambda time: 'AM' if 0 <= time[0] < 12 else 'PM',
+    'meridian': lambda time: 'yb' if 0 <= time[0] < 12 else 'yh',
 
     # Date formats
     'date_formats': {
