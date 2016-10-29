@@ -53,6 +53,29 @@ translations = {
 
     # Units of time
     'year': ['{count} year', '{count} years'],
+
+    """
+        un flwyddyn
+        dwy flynedd
+        tair blynedd
+        pedair blynedd
+        pum mlynedd
+        chwe mlynedd
+        saith mlynedd
+        wyth mlynedd
+        naw mlynedd
+        deng mlynedd
+
+        deuddeng mlynedd (12)
+        pymtheng mlynedd (15)
+        ugain mlynedd    (20)
+        hanner can mlynedd (50)
+        can mlynedd (100)
+
+
+    """
+
+
     'month': ['{count} month', '{count} months'],
     'week': ['{count} week', '{count} weeks'],
     'day': ['{count} day', '{count} days'],
